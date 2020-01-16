@@ -4,5 +4,15 @@
   </div>
 </div>
 <div class="fab-button">
-  <button mat-fab color="primary"><span class="plus-icon">+</span></button>
+  <a
+    mat-fab
+    color="primary"
+    matTooltip="Create a Blog"
+    matTooltipPosition="above"
+    routerLink="/create-blog"
+    fxLayout="column"
+    fxLayoutAlign="center center"
+  >
+    <span class="plus-icon">+</span>
+  </a>
 </div>
