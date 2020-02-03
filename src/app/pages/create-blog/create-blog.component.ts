@@ -37,7 +37,7 @@ export class CreateBlogComponent implements OnInit, OnDestroy {
     const blog: Blog = {
       title: this.blogForm.value.title,
       content: this.blogForm.value.content
-    }
+    };
 
     this.subs.add(
       this.http.post('http://localhost:8080/mock/blog', blog).subscribe()

@@ -6,7 +6,7 @@ import { ConfigService } from '@shared/services/config.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent{
+export class AppComponent {
   constructor(
     private config: ConfigService,
   ) {}
